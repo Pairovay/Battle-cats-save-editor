@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Battle Cats Save Editor</title>
+  <link rel="icon" type="image/png" href="assets/ui/Icon.png">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <img src="assets/ui/Icon.png" alt="">
+        <div class="brand-text"><b>Battle Cats</b><span>Save Editor</span></div>
+      </div>
+      <nav id="nav" class="nav"></nav>
+      <div id="side-foot" class="side-foot"></div>
+    </aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="topbar-title">
+          <h1 id="page-title"></h1>
+          <p id="page-sub" class="muted"></p>
+        </div>
+        <div id="topbar-actions" class="topbar-actions"></div>
+      </header>
+      <section id="view" class="view"></section>
+    </main>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <script src="i18n.js"></script>
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
